@@ -70,3 +70,6 @@ each line represent a parameter:
   
   python -u render_batch --model_root_dir {model root dir} --render_root_dir {where you store images} --filelist_dir {which models you want to render} --blender_location {you} --num_thread {10} --shapenetversion {support v1, v2, for v2 you need to change render_blender.py's random range since some model always get out of the field of view} --debug {False}
 ```
+
+### Transformation matrix calculation:
+Please refer to cam_read.py
