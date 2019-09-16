@@ -57,13 +57,7 @@ each line represent a parameter:
 |74.77100786318874|37.07793266268725|0|0.6451202137421064|35|32|1.75|-0.1529439091682434|-0.13056571781635284|0.0746786817908287| 
 
 ### Dataset download:
-[google drive albedo.tar](https://drive.google.com/file/d/1a76c7Ipsb1jlzOuWyEpFvIteRkxF6ZCf/view?usp=sharing)
 
-[google drive image.tar](https://drive.google.com/file/d/1xTSmYHz9Bp086TT9RVqxwyMAGTrANveD/view?usp=sharing)
-
-[google drive depth.tar](https://drive.google.com/file/d/1IARxac2P9W99RLhZqsnQSI2NyVI4G2Qv/view?usp=sharing)
-
-[google drive normal.tar](https://drive.google.com/file/d/1fpANvgF-q89I0VByYdkVtu4PLieHiieh/view?usp=sharing)
 
 ### Run the script by yourself :
 ```
