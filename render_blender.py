@@ -121,14 +121,28 @@ lamp.shadow_method = 'NOSHADOW'
 lamp.use_specular = False
 
 # Add another light source so stuff facing away from light is not completely dark
+light_data = bpy.data.lamps.new(name="light_2", type='HEMI')
+light_data.energy = 0.5
+light2 = bpy.data.objects.new(name="light_2", object_data=light_data)
+bpy.context.scene.objects.link(light2)
+# make it active
+bpy.context.scene.objects.active = light2
+
+# light_data.use_specular = False
+# bpy.data.objects['light_2'].rotation_euler = bpy.data.objects['Lamp'].rotation_euler
+# bpy.data.objects['light_2'].rotation_euler[0] += 180
+# bpy.data.objects['light_2'].location= (30, 0, 30)
+
+
+# Add another light source so stuff facing away from light is not completely dark
 bpy.ops.object.lamp_add(type='SUN')
 lamp2 = bpy.data.lamps['Sun']
 lamp2.shadow_method = 'NOSHADOW'
 lamp2.use_specular = False
-lamp2.energy = 1
-bpy.data.objects['Sun'].rotation_euler = bpy.data.objects['Lamp'].rotation_euler
+lamp2.energy = 0.5
+# bpy.data.objects['Sun'].location = (0, 100, 0)
+# bpy.data.objects['Sun'].rotation_euler = bpy.data.objects['Lamp'].rotation_euler
 bpy.data.objects['Sun'].rotation_euler[0] += 180
-
 
 def parent_obj_to_camera(b_camera):
     origin = (0.0, 0.0, 0.0)
