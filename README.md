@@ -37,6 +37,7 @@ Also please cite [Shapenet's original paper](https://arxiv.org/abs/1512.03012) a
     
 Our rendering is based on the convention of [3DR2N2](https://arxiv.org/abs/1604.00449)'s 2d image rendering.
  
+ * #### Our script support both shapenet v1 and v2, for v2 you need to change render_blender.py's random range since some model always get out of the field of view. The tar files we provide is rendered on v1.
  * #### Each model object has 36 easy views and 36 hard views.(3DR2N2 has 24 easy views)
  * #### Each view of each model object, we have albedo, depth, normal and RGB images.(3DR2N2 has only RGB images)
  * #### different from 3DR2N2, our resolution is 224 * 224 instead of 137 * 137
@@ -68,7 +69,7 @@ each line represent a parameter:
 ```
   install blender 2.79 and go to its python3.5m to install pip3, then install numpy and opencv
   
-  python -u render_batch --model_root_dir {model root dir} --render_root_dir {where you store images} --filelist_dir {which models you want to render} --blender_location {you} --num_thread {10} --shapenetversion {support v1, v2, for v2 you need to change render_blender.py's random range since some model always get out of the field of view} --debug {False}
+  python -u render_batch --model_root_dir {model root dir} --render_root_dir {where you store images} --filelist_dir {which models you want to render} --blender_location {you} --num_thread {10} --shapenetversion {support v1, v2} --debug {False}
 ```
 
 ### Transformation matrix calculation:
