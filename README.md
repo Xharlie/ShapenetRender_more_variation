@@ -47,7 +47,7 @@ Our rendering is based on the convention of [3DR2N2](https://arxiv.org/abs/1604.
                                            
 | albedo  | RGB  |  Depth | normal | 
 |---|---|---|---|
-| <img src="samples/albedo_1176dff7f0ec879719d740e0f6a9a113/hard/06.png" width="200px" />   | <img src="samples/image_1176dff7f0ec879719d740e0f6a9a113/hard/06.png"  width="200px"/>  | <img src="samples/depth_1176dff7f0ec879719d740e0f6a9a113/hard/06.png"  width="200px"/>  |  <img src="samples/normal_1176dff7f0ec879719d740e0f6a9a113/hard/06.png" width="200px" /> |
+| <img src="samples/albedo_1176dff7f0ec879719d740e0f6a9a113/hard/32.png" width="200px" />   | <img src="samples/image_1176dff7f0ec879719d740e0f6a9a113/hard/32.png"  width="200px"/>  | <img src="samples/depth_1176dff7f0ec879719d740e0f6a9a113/hard/32.png"  width="200px"/>  |  <img src="samples/normal_1176dff7f0ec879719d740e0f6a9a113/hard/32.png" width="200px" /> |
  
 In each folder, there is a meta file: rendering_metadata.txt:
 each line represent a parameter:
