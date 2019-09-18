@@ -57,7 +57,10 @@ each line represent a parameter:
 |74.77100786318874|37.07793266268725|0|0.6451202137421064|35|32|1.75|-0.1529439091682434|-0.13056571781635284|0.0746786817908287| 
 
 ### Dataset download:
-
+[image.tar](https://drive.google.com/file/d/1gwRviPb18vANDECAqeUqLBCvBTnfq7fo/view?usp=sharing)
+[albedo.tar](https://drive.google.com/file/d/1sA21ywWjve2VXxqARhiWa109cq_1Ntv4/view?usp=sharing)
+[depth.tar](https://drive.google.com/file/d/1IA9gYqK0K7oVXdRPQDdGitLArpexdfSI/view?usp=sharing)
+[normal.tar](https://drive.google.com/file/d/1S0lOG3Id_e2FwXwMf4AMp7-xBfVsVk7Z/view?usp=sharing)
 
 ### Run the script by yourself :
 ```
